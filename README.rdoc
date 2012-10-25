@@ -1,0 +1,29 @@
+Rebel Outpost Foundation
+========================
+
+Rebel Outpost Foundation is a bare bones starter app.  It is setup to use our favorites:
+
+  - Devise
+  - Mongodb
+  - Mongoid
+  - HAML
+  - SASS
+  - Pry
+
+
+To Get Started
+--------------
+
+If you do not have MongoDB installed, the best way to install it is to use Homebrew:
+  - brew install mongodb
+
+1. Clone the project
+2. gem install bundler --pre
+3. Run 'bundle'
+4. Start your server 'rails s'
+5. Go to localhost:3000/signup to create a new user
+
+
+Enjoy
+=====
+
