@@ -17,11 +17,11 @@ To Get Started
 If you do not have MongoDB installed, the best way to install it is to use Homebrew:
   - brew install mongodb
 
-1. Clone the project
-2. gem install bundler --pre
-3. Run 'bundle'
-4. Start your server 'rails s'
-5. Go to localhost:3000/signup to create a new user
+  1. Clone the project
+  2. gem install bundler --pre
+  3. Run 'bundle'
+  4. Start your server 'rails s'
+  5. Go to localhost:3000/signup to create a new user
 
 
 Devise
@@ -39,7 +39,7 @@ Devise is already installed.  There are routes set for Devise:
 Pages
 =====
 
-There is a Pages controller which is setup to go to pages/index.  This is set as the root_to in the routes file.  If you want to have a landgin page and then after the user logs in it goes to another page, this can be set in the controllers/application controller:
+  There is a Pages controller which is setup to go to pages/index.  This is set as the root_to in the routes file.  If you want to have a landgin page and then after the user logs in it goes to another page, this can be set in the controllers/application controller:
 
   def after_sign_in_path_for(resource)
   #   if you need to redirect to another page, set that here
@@ -81,5 +81,5 @@ For MongoLab, the config/mongoid.yml file is already setup:
         options:
           consistency: :strong
 
-To use MongoHQ, change the uri: <%= ENV['MONGOHQ_URL'] %>
+  To use MongoHQ, change the uri: <%= ENV['MONGOHQ_URL'] %>
 
