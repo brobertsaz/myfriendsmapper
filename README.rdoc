@@ -17,7 +17,7 @@ To Get Started
 If you do not have MongoDB installed, the best way to install it is to use Homebrew:
   - brew install mongodb
 
-  1. Clone the project
+  1. Clone the project - git clone git@github.com:brobertsaz/rebel-outpost-foundation.git
   2. gem install bundler --pre
   3. Run 'bundle'
   4. Start your server 'rails s'
