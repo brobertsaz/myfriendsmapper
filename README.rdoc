@@ -54,7 +54,7 @@ Heroku
 For using Heroku for deployment, please visit https://devcenter.heroku.com/articles/quickstart
 
   1. Create Heroku account if you do not have one
-  2. Make sure that you have [Heroku Toolbelt](https://toolbelt.heroku.com/) installed
+  2. Make sure that you have Heroku Toolbelt (https://toolbelt.heroku.com/) installed
   3. Login to Heroku 'heroku login'
   4. Create Heroku app 'heroku create "app_name"' where app_name is the name of your application
   5. git push heroku master  (You will need to have git esetup.  If you have not done so you can use:
