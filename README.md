@@ -87,12 +87,12 @@ If you are deploying to Heroku, you will need to have Mongodb database set up pr
 
 For MongoLab, the config/mongoid.yml file is already setup:
 
-  production:
-    sessions:
-      default:
-        uri: <%= ENV['MONGOLAB_URI'] %> 
-        options:
-          consistency: :strong
+    `production:
+      sessions:
+        default:
+          uri: <%= ENV['MONGOLAB_URI'] %> 
+          options:
+            consistency: :strong`
 
   To use MongoHQ, change the uri: <%= ENV['MONGOHQ_URL'] %>
 
