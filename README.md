@@ -17,10 +17,13 @@ To Get Started
 If you do not have MongoDB installed, the best way to install it is to use Homebrew:
   - brew install mongodb
 
-  1. Clone the project - git clone git@github.com:brobertsaz/rebel-outpost-foundation.git
-  2. cd into the cloned project
+  1. Clone the project - git clone git@github.com:rebel-outpost/rebel-outpost-foundation.git (my_project_name)
+  2. cd into (my_project_name)
   3. accept the .rvmrc
-  4. gem install bundler --pre
+    3.1 You may need to install Ruby 1.9.3
+    3.2 $ rvm install 1.9.3
+    3.3 $ rvm use 1.9.3
+  4. $ gem install bundler --pre
   5. Run 'bundle'
   6. Start your server 'rails s'
   7. Go to localhost:3000/signup to create a new user
@@ -43,9 +46,9 @@ Pages
 
   There is a Pages controller which is setup to go to pages/index.  This is set as the root_to in the routes file.  If you want to have a landgin page and then after the user logs in it goes to another page, this can be set in the controllers/application controller:
 
-  def after_sign_in_path_for(resource)
-  #   if you need to redirect to another page, set that here
-  end
+    def after_sign_in_path_for(resource)
+    #   if you need to redirect to another page, set that here
+    end
 
 
 Heroku
