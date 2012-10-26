@@ -65,9 +65,9 @@ For using Heroku for deployment, please visit https://devcenter.heroku.com/artic
     - "app_name" is the name of your application
   - $ git push heroku master  
     - You will need to have git setup.  If you have not done so you can use:
-                                          $ git init
-                                          $ git add .
-                                          $ git commit -m "init"
+                                          - $ git init
+                                          - $ git add .
+                                          - $ git commit -m "init"
 
 
 Mongodb setup for Heroku
