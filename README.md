@@ -68,6 +68,10 @@ For using Heroku for deployment, please visit https://devcenter.heroku.com/artic
       - $ git init
       - $ git add .
       - $ git commit -m "init"
+  - If you get an error "fatal: 'heroku' does not appear to be a git repository" when trying to push to heroku master, you will need to add the remote:
+    - $ git remote add heroku (the heroku git address)
+  - If you get an error "Permission denied (publickey)" you need to add your public keys:
+    - $ heroku keys:add ~/.ssh/id_rsa.pub
 
 
 Mongodb setup for Heroku
