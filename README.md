@@ -15,8 +15,8 @@ To Get Started
 ==============
 
 If you do not have MongoDB installed, the best way to install it is to use Homebrew:
+  
   - brew install mongodb
-
   - Clone the project - git clone git@github.com:rebel-outpost/rebel-outpost-foundation.git (my_project_name)
   - cd into (my_project_name)
   - accept the .rvmrc
