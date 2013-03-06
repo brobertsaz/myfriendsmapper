@@ -1,7 +1,7 @@
 development:
   sessions:
     default:
-      database: rebel_outpost_foundation_development
+      database: wherearetheyat_development
       hosts:
         - localhost:27017
       options:
@@ -11,7 +11,7 @@ development:
 test:
   sessions:
     default:
-      database: rebel_outpost_foundation_test
+      database: wherearetheyat_test
       hosts:
         - localhost:27017
       options:

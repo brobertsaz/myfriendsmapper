@@ -17,10 +17,10 @@ gem 'haml'
 gem 'haml-rails'
 gem 'devise'
 gem 'bcrypt-ruby'
+gem 'gmaps4rails'
 
 group :production do
   gem 'thin'
-  # ruby 1.9.3 is needed for heroku
   ruby '2.0.0'
 end
 

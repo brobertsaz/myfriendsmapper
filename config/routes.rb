@@ -7,6 +7,7 @@ RebelOutpostFoundation::Application.routes.draw do
     match "signup" => "devise/registrations#new", :as => "signup"
   end
 
+  resources :friends
   root to: 'pages#index'
 
 end
