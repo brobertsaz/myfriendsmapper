@@ -18,6 +18,7 @@ gem 'haml-rails'
 gem 'devise'
 gem 'bcrypt-ruby'
 gem 'gmaps4rails'
+gem 'therubyracer'
 
 group :production do
   gem 'thin'
