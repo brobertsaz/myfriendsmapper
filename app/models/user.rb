@@ -9,6 +9,8 @@ class User
 
   attr_accessor :password
 
+  has_many :sessions
+
   after_create :digest_password
 
   class << self

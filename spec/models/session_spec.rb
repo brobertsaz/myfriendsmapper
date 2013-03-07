@@ -17,5 +17,6 @@ describe Session do
     it{session.class.should == Session}
     it{session.token.should be}
     it{session.user_id.should be}
+    it{user.sessions.should include(session)}
   end
 end
