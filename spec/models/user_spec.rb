@@ -1,5 +1,8 @@
 require 'spec_helper'
 
 describe User do
-  pending "add some examples to (or delete) #{__FILE__}"
+  context 'authentication' do
+    it 'does not return a user without valid credentials'
+    it 'returns a user with valid credentials'
+  end
 end
