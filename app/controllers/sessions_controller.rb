@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+  
   def create
     session = Session.authenticate(params[:user][:email], params[:user][:password])
     if session

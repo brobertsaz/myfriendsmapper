@@ -19,6 +19,7 @@ gem 'bcrypt-ruby'
 gem 'gmaps4rails'
 gem 'therubyracer'
 gem 'digest-sha3'
+gem 'omniauth-twitter'
 
 group :production do
   gem 'thin'

@@ -1,5 +1,5 @@
 require 'spec_helper'
 
-describe Friend do
+describe UsersController do
 
 end

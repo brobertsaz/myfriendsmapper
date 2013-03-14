@@ -7,9 +7,12 @@ class User
   field :email
   field :password_digest
 
-  attr_accessor :password
+  attr_accessor :password, :password_confirmation
 
   has_many :sessions
+
+  validates :password, presence: true, confirmation: true, on: :create
+  validates :email, presence: true, on: :create
 
   after_create :digest_password
 
